@@ -14,6 +14,8 @@ public class UnitTesting3 {
 			String un = "root";
 			String pwd = "root";
 			
+			System.out.println(pwd);
+			
 			con = DriverManager.getConnection(dbUrl, un, pwd);
 			String query = "select un from d1;";
 			res = con.createStatement().executeQuery(query);
