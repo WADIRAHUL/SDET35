@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 
-public class UnitTesting2 {
+public class UnitTesting3 {
 	public static void main(String[] args) throws Throwable {
 		String projectName = "rahul";
 		Connection con = null;
