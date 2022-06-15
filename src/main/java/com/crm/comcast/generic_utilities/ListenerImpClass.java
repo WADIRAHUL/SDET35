@@ -16,6 +16,7 @@ public class ListenerImpClass implements ITestListener{
 		
 		String testName = result.getMethod().getMethodName();
 		EventFiringWebDriver edriver = new EventFiringWebDriver(Base_Class.sdriver);
+		
 		File srcFile = edriver.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./src/test/resources/errorsots/" + jlib.getSystemDate() + " "+testName+ ".png");
 		
@@ -25,6 +26,4 @@ public class ListenerImpClass implements ITestListener{
 			e.printStackTrace();
 		}
 	}
-	
-	
 }
