@@ -10,9 +10,15 @@ public class UnitTesting3 {
 		Connection con = null;
 		ResultSet res;
 		try {
+			
 			String dbUrl = "jdbc:mysql://localhost:3306/details";
 			String un = "root";
 			String pwd = "root";
+			
+
+			System.out.println(un);
+			System.out.println(pwd);
+
 			
 			con = DriverManager.getConnection(dbUrl, un, pwd);
 			String query = "select un from d1;";
