@@ -13,13 +13,13 @@ public class ListenerImpClass implements ITestListener{
 
 	public void onTestFailure(ITestResult result) {
 		Java_Utility jlib = new Java_Utility();
-		
+
 		String testName = result.getMethod().getMethodName();
 		EventFiringWebDriver edriver = new EventFiringWebDriver(Base_Class.sdriver);
-		
+
 		File srcFile = edriver.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./src/test/resources/errorsots/" + jlib.getSystemDate() + " "+testName+ ".png");
-		
+
 		try {
 			FileUtils.copyFile(srcFile, destFile);
 		} catch (IOException e) {

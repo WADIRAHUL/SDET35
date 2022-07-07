@@ -21,10 +21,11 @@ public class Web_Driver_Utility {
 	}
 
 	public void explicitWait(WebDriver driver) {
+		@SuppressWarnings("unused")
 		WebDriverWait wait = new WebDriverWait(driver, Constants.EXPLICICTWAIT);
 	}
 
-	public void swithToWindow(WebDriver driver , String partialWindowTitle) {
+	public void swithToWindow(WebDriver driver , String partialWindowUrl) {
 		Set<String> set = driver.getWindowHandles();
 		Iterator<String> it = set.iterator();
 
@@ -32,7 +33,7 @@ public class Web_Driver_Utility {
 			String wID = it.next();
 			driver.switchTo().window(wID);
 			String url = driver.getCurrentUrl();
-			if(url.contains(partialWindowTitle)) {
+			if(url.contains(partialWindowUrl)) {
 				break;
 			}
 		}

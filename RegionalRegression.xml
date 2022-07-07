@@ -4,9 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crm.comcast.contactTest.Create_Contact_Test">
-      <methods>
-      	<include name="createContact"></include>
-      </methods>
+      	<methods>
+      		<include name="createContact"></include>
+      	</methods>
       </class>
     </classes>
   </test>
