@@ -6,12 +6,12 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.CampaignPage;
-import com.crm.comcast.pomrepo.CreateCampaignPage;
-import com.crm.comcast.pomrepo.Create_Products_Page;
-import com.crm.comcast.pomrepo.HomePage;
-import com.crm.comcast.pomrepo.Products_Info_Page;
-import com.crm.comcast.pomrepo.Products_Page;
+import com.crm.comcast.pom_utilities.CampaignPage;
+import com.crm.comcast.pom_utilities.CreateCampaignPage;
+import com.crm.comcast.pom_utilities.Create_Products_Page;
+import com.crm.comcast.pom_utilities.HomePage;
+import com.crm.comcast.pom_utilities.Products_Info_Page;
+import com.crm.comcast.pom_utilities.Products_Page;
 
 public class CreateCampaignWithProductTest extends Base_Class {
 	

@@ -3,9 +3,9 @@ package com.crm.comcast.contactTest;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.ContactPage;
-import com.crm.comcast.pomrepo.CreateContactPage;
-import com.crm.comcast.pomrepo.HomePage;
+import com.crm.comcast.pom_utilities.ContactPage;
+import com.crm.comcast.pom_utilities.CreateContactPage;
+import com.crm.comcast.pom_utilities.HomePage;
 
 public class Create_Contact_WithoutMandatory extends Base_Class{
 	

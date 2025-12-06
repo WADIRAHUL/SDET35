@@ -8,10 +8,10 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.CampaignPage;
-import com.crm.comcast.pomrepo.Campaign_Info_Page;
-import com.crm.comcast.pomrepo.CreateCampaignPage;
-import com.crm.comcast.pomrepo.HomePage;
+import com.crm.comcast.pom_utilities.CampaignPage;
+import com.crm.comcast.pom_utilities.Campaign_Info_Page;
+import com.crm.comcast.pom_utilities.CreateCampaignPage;
+import com.crm.comcast.pom_utilities.HomePage;
 
 @Listeners(com.crm.comcast.generic_utilities.ListenerImpClass.class)
 public class Create_Campaign_Test extends Base_Class {
@@ -39,9 +39,3 @@ public class Create_Campaign_Test extends Base_Class {
 		Reporter.log("The Campaign Is Succesfully Created", true);
 	}
 }
-	
-
-
-
-
-	

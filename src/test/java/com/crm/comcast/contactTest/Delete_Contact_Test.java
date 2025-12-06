@@ -4,10 +4,10 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.ContactPage;
-import com.crm.comcast.pomrepo.Contact_Info_Page;
-import com.crm.comcast.pomrepo.CreateContactPage;
-import com.crm.comcast.pomrepo.HomePage;
+import com.crm.comcast.pom_utilities.ContactPage;
+import com.crm.comcast.pom_utilities.Contact_Info_Page;
+import com.crm.comcast.pom_utilities.CreateContactPage;
+import com.crm.comcast.pom_utilities.HomePage;
 
 public class Delete_Contact_Test extends Base_Class {
 

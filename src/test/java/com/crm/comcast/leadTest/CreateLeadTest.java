@@ -5,10 +5,10 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.CreateLeadsPage;
-import com.crm.comcast.pomrepo.HomePage;
-import com.crm.comcast.pomrepo.LeadInfoPage;
-import com.crm.comcast.pomrepo.LeadsPage;
+import com.crm.comcast.pom_utilities.CreateLeadsPage;
+import com.crm.comcast.pom_utilities.HomePage;
+import com.crm.comcast.pom_utilities.LeadInfoPage;
+import com.crm.comcast.pom_utilities.LeadsPage;
 
 public class CreateLeadTest extends Base_Class{
 

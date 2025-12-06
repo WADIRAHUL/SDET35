@@ -15,8 +15,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import com.crm.comcast.pomrepo.HomePage;
-import com.crm.comcast.pomrepo.LoginPage;
+import com.crm.comcast.pom_utilities.HomePage;
+import com.crm.comcast.pom_utilities.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 

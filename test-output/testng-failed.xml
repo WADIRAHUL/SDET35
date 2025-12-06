@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.comcast.leadTest.CreateLeadTest">
+      <class name="com.crm.comcast.campaignTest.Create_Campaign_Test">
         <methods>
           <include name="as"/>
           <include name="bt"/>
           <include name="login"/>
           <include name="logout"/>
-          <include name="createLead"/>
           <include name="launchBrowser"/>
           <include name="at"/>
           <include name="quit"/>
+          <include name="createCamp"/>
           <include name="bs"/>
         </methods>
-      </class> <!-- com.crm.comcast.leadTest.CreateLeadTest -->
+      </class> <!-- com.crm.comcast.campaignTest.Create_Campaign_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

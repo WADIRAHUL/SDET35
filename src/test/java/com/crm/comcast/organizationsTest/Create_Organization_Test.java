@@ -6,10 +6,10 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.Create_Organization_Page;
-import com.crm.comcast.pomrepo.HomePage;
-import com.crm.comcast.pomrepo.Organization_Info_Page;
-import com.crm.comcast.pomrepo.Organization_Page;
+import com.crm.comcast.pom_utilities.Create_Organization_Page;
+import com.crm.comcast.pom_utilities.HomePage;
+import com.crm.comcast.pom_utilities.Organization_Info_Page;
+import com.crm.comcast.pom_utilities.Organization_Page;
 
 public class Create_Organization_Test extends Base_Class {
 	

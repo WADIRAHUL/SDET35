@@ -6,15 +6,15 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.generic_utilities.Base_Class;
-import com.crm.comcast.pomrepo.Create_Products_Page;
-import com.crm.comcast.pomrepo.Create_Purchase_Page;
-import com.crm.comcast.pomrepo.Create_Vendors_Page;
-import com.crm.comcast.pomrepo.HomePage;
-import com.crm.comcast.pomrepo.Products_Page;
-import com.crm.comcast.pomrepo.Purchase_Duplicate_Page;
-import com.crm.comcast.pomrepo.Purchase_Info_Page;
-import com.crm.comcast.pomrepo.Purchase_Page;
-import com.crm.comcast.pomrepo.Vendors_Page;
+import com.crm.comcast.pom_utilities.Create_Products_Page;
+import com.crm.comcast.pom_utilities.Create_Purchase_Page;
+import com.crm.comcast.pom_utilities.Create_Vendors_Page;
+import com.crm.comcast.pom_utilities.HomePage;
+import com.crm.comcast.pom_utilities.Products_Page;
+import com.crm.comcast.pom_utilities.Purchase_Duplicate_Page;
+import com.crm.comcast.pom_utilities.Purchase_Info_Page;
+import com.crm.comcast.pom_utilities.Purchase_Page;
+import com.crm.comcast.pom_utilities.Vendors_Page;
 
 public class Create_PurchaseDuplicate_Test extends Base_Class {
 	
